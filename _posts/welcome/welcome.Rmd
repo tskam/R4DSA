@@ -1,0 +1,25 @@
+---
+title: "Welcome to R for Data Science and Analytics"
+description: |
+  This blog consists of a collection of R tutorials, notebooks tips and tricks. We hope you enjoy reading what we have to say!
+author:
+  - name: Dr. KAM Tin Seong, <br>Associate Professor of Information Systems (Practice) 
+    url: https://www.smu.edu.sg/faculty/profile/9618/KAM-Tin-Seong
+    affiliation: School of Computing and Information Systems, <br>Singapore Management University
+    affiliation_url: https://scis.smu.edu.sg/
+date: 05-21-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+
