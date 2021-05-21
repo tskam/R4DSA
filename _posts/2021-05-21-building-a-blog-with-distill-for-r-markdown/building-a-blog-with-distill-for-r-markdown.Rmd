@@ -63,16 +63,25 @@ Your screen should look similar to the screenshot below.
 * For **Title:**, provide a proper title for your blog (i.e. R for Data Science and Analytics).
 * Click on **Create Project** when you are ready.
 
+Let us examine the Files window of RStudio as shown in the screenshot below.  The home-directory is called *R4DSA*.  It consists of the *R4DSA.rproj* file, the *about.rmd* file, the *index.rmd* file, the *_site.yml* file and two folders: *_posts* and *_site*.
+
+![](img/image06.jpg)
+
+### Viewing the newly created blog page
+
+Next, let us view the newly created blog page.
+
+* Click on _site folder.
+* Click on index.html.
+* Select **View in Web Browser** from the context menu
+
 A web page appears on RStudio viewer as shown below.
 
 ![](img/image09.jpg)
 
 Congratulations! Your first web blog has been built successfully.
 
-Let us examine the Files window of RStudio as shown in the screenshot below.  The home-directory is called *R4DSA*.  It consists of the *R4DSA.rproj* file, the *about.rmd* file, the *index.rmd* file, the *_site.yml* file and two folders: *_posts* and *_site*.
-
-
-![](img/image06.jpg)
+### Learning more about the blog content
 
 Notice that the *about.rmd* and *index.rmd* are located at the home-directory.  On the other hand, the *welcome.rmd* is located at *R4DSA/_posts/welcome* sub-directory as shown in the screenshot below. 
 
