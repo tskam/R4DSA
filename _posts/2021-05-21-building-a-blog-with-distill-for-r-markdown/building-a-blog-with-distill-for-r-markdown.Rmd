@@ -1,7 +1,7 @@
 ---
 title: "Building a blog with distill for R Markdown"
 description: |
-  This tutirial aims to provide you a step-by-step guide to build a web blog by using distill for R Markdown package.
+  This tutorial aims to provide you a step-by-step guide to build a web blog by using distill for R Markdown package.
 author:
   - name: Dr. KAM Tin Seong, <br>Associate Professor of Information Systems (Practice)
     url: https://www.smu.edu.sg/faculty/profile/9618/KAM-Tin-Seong
