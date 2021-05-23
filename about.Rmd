@@ -1,7 +1,7 @@
 ---
 title: "About this blog"
 description: |
-  Welcome to the home page for **R for Data Science and Analytics**.  This blog site contains a collection of tutorials, notebooks, tips and tricks on R for Data Science and Analytics.
+  Welcome to the home page of **R for Data Science and Analytics** in short **R4DSA**.  In this site, you will find a collection of tutorials, notebooks, tips and tricks on R for Data Science and Analytics.
 author:
   - name: "Dr. KAM Tin Seong <br/>Associate Professor of Information Systems (Practice)"
     url: https://www.smu.edu.sg/faculty/profile/9618/KAM-Tin-Seong
