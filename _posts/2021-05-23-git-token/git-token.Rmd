@@ -109,6 +109,7 @@ To confirm if the PAT have been stored correctly in your machine, you can repeat
 
 * [Managing Personal Access Tokens](https://gh.r-lib.org/articles/managing-personal-access-tokens.html) of **gh** package.
 * [Managing Git(Hub) Credentials](https://usethis.r-lib.org/articles/articles/git-credentials.html) of **usethis** package.
+* [Chapter 10 Cache credentials for HTTPS](https://happygitwithr.com/credential-caching.html) of **Happy Git and GitHub for the useR**
 
 
 
