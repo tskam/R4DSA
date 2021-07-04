@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-07-04-parsing-text-file-2/",
+    "title": "Parsing Text using R",
+    "description": "This post aims to share with you how to import a text document into R and at the same time extracting each row into column of a data.frame.",
+    "author": [
+      {
+        "name": "Dr. KAM Tin Seong, <br>Associate Professor of Information Systems (Practice)",
+        "url": "https://www.smu.edu.sg/faculty/profile/9618/KAM-Tin-Seong"
+      }
+    ],
+    "date": "2021-07-04",
+    "categories": [],
+    "contents": "\r\n\r\nContents\r\nIntroduction\r\n\r\nIntroduction\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-07-04T09:10:46+08:00",
+    "input_file": "parsing-text-file-2.knit.md"
+  },
+  {
     "path": "posts/2021-06-17-parsing-text-using-r/",
     "title": "Parsing Text using R",
     "description": "This post aims to share with you how to import a text document into R and at the same time extracting each row into column of a data.frame.",
