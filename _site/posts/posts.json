@@ -51,7 +51,7 @@
     "input_file": {}
   },
   {
-    "path": "posts/2021-05-21-building-a-blog-with-distill-for-r-markdown/",
+    "path": "posts/2022-01-03-building-a-web-site-with-distill-for-r-markdown/",
     "title": "Building a blog with distill for R Markdown",
     "description": "This tutorial aims to provide you a step-by-step guide to build a web blog by using distill for R Markdown package.",
     "author": [
