@@ -112,7 +112,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Creating a Pareto Chart using ggplot"]},{"type":"character","attributes":{},"value":["This post aims to share with you how to create a pareto chart by using ggplot package of R.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Dr. KAM Tin Seong, <br>Associate Professor of Information Systems (Practice)"]},{"type":"character","attributes":{},"value":["https://www.smu.edu.sg/faculty/profile/9618/KAM-Tin-Seong"]}]}]},{"type":"character","attributes":{},"value":["2022-01-23"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Creating a Pareto Chart using ggplot"]},{"type":"character","attributes":{},"value":["This post aims to share with you how to create a pareto chart by using ggplot package of R.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Dr. KAM Tin Seong, <br>Associate Professor of Information Systems (Practice)"]},{"type":"character","attributes":{},"value":["https://www.smu.edu.sg/faculty/profile/9618/KAM-Tin-Seong"]}]}]},{"type":"character","attributes":{},"value":["2022-01-23"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1482,6 +1482,33 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#overview">Overview</a>
+<ul>
+<li><a href="#the-task">The Task</a></li>
+</ul></li>
+<li><a href="#getting-started">Getting started</a>
+<ul>
+<li><a href="#installing-and-loading-the-required-libraries">Installing and loading the required libraries</a></li>
+</ul></li>
+<li><a href="#data-import">Data Import</a></li>
+<li><a href="#data-wrangling">Data Wrangling</a>
+<ul>
+<li><a href="#joining-the-two-data-frames">Joining the two data frames</a></li>
+<li><a href="#compute-the-frequency-count-by-sub-category">Compute the frequency count by Sub-Category</a>
+<ul>
+<li><a href="#the-group-by-method">The <em>group-by</em> method</a></li>
+<li><a href="#the-count-method">The <em>count</em> method</a></li>
+</ul></li>
+<li><a href="#sorting-data">Sorting data</a></li>
+<li><a href="#computing-the-cumulative-frequency">Computing the cumulative frequency</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
 <h1 id="overview">Overview</h1>
 <p>Pareto chart is a popular data visualisation use to reveal something like the <a href="https://en.wikipedia.org/wiki/Pareto_principle">80-20 rule</a>. <img src="img/image1.png" /></p>
 <p>The purpose of the Pareto chart is to highlight the most important among a (typically large) set of factors. In market share study, Pareto charts are useful to reveal if the business is dominated by a handful of key products or customers. In general, businesses will try to avoid their businesses over-dependent by a few products or customers because if something happen to their key products or business partners, the businesses will be very badly affected.</p>
@@ -1551,7 +1578,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </code></pre>
 </div>
 </div>
-<p>]</p>
 <h3 id="the-count-method">The <em>count</em> method</h3>
 <p>The code chunk below shows the alternative way to derive the frequency of returns by sub-category. In this case, <a href="https://dplyr.tidyverse.org/reference/count.html">count()</a> of dplyr package is used.</p>
 <div class="layout-chunk" data-layout="l-body">
@@ -1562,7 +1588,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </code></pre>
 </div>
 </div>
-<p>]</p>
 <p>By default, <em>count()</em> will return a new field called <em>n</em> to store the result. In view of this, <a href="https://dplyr.tidyverse.org/reference/rename.html"><em>rename()</em></a> of <strong>dplyr</strong> is used to rename <em>n</em> to <em>Returns</em>.</p>
 <h2 id="sorting-data">Sorting data</h2>
 <p>By default, the values of the tibble data frame is sorted according to the values of the first column. In this case, the values are sorted alphabetically by Sub-Category field as shown in the figure below</p>

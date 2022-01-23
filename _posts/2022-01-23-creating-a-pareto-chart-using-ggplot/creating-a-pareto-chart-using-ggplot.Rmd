@@ -9,6 +9,7 @@ date: 2022-01-23
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
 ---
 
 
@@ -103,7 +104,7 @@ freq_returned <- joined_tab %>%
   summarise('Returns' = n()) %>%
   ungroup()
 ```
-]
+
 
 ### The *count* method
 
@@ -114,7 +115,7 @@ freq_returned <- joined_tab %>%
   count(`Sub-Category`) %>%
   rename(Returns = n)
 ```
-]
+
 
 By default, *count()* will return a new field called *n* to store the result.  In view of this, [*rename()*](https://dplyr.tidyverse.org/reference/rename.html) of **dplyr** is used to rename *n* to *Returns*.
 
