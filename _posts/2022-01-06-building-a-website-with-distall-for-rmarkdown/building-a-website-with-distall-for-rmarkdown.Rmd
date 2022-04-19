@@ -1,7 +1,7 @@
 ---
-title: "Building a website with distall for RMarkdown"
+title: "Building a website with Distill for RMarkdown"
 description: |
-  This tutorial aims to provide you a step-by-step guide to build a web blog by using distill for R Markdown package.
+  This tutorial aims to provide you a step-by-step guide to build a web blog by using Distill for R Markdown package.
 author:
   - name: Dr. KAM Tin Seong, <br>Associate Professor of Information Systems (Practice)
     url: https://www.smu.edu.sg/faculty/profile/9618/KAM-Tin-Seong
