@@ -9,6 +9,7 @@ date: 01-06-2021
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
 ---
 
 
